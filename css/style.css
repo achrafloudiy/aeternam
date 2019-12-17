@@ -326,7 +326,7 @@ header {
     background: url(../img/home-bg-2.jpg);
     background-repeat: no-repeat;
     background-size:100% auto;
-    height: 325px;
+    min-height: 255px;
 }
 
 .table-cell {
