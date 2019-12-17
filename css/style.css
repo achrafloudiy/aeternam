@@ -322,10 +322,11 @@ header {
 /* home section
 ==================================================*/
 
-#home {
+#bg-home{
     background: url(../img/home-bg-2.jpg);
-    background-size: cover;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    height: 325px;
 }
 
 .table-cell {
@@ -1016,11 +1017,6 @@ a.bit-button.bit-track-button.bit-offers
     text-decoration: none;
 }
 
-
-
-.about-img-div {
-
-}
 #artwork {
  margin-bottom:1rem;
 }
