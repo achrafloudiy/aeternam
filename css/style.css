@@ -324,9 +324,10 @@ header {
 
 #bg-home{
     background: url(../img/home-bg-2.jpg);
-    background-repeat: no-repeat;
-    background-size:100% auto;
-    min-height: 255px;
+    padding-top: 56.25%;  /* 450px/800px = 0.5625 */
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
 }
 
 .table-cell {
