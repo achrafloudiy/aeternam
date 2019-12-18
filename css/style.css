@@ -1047,3 +1047,23 @@ a.bit-button.bit-track-button.bit-offers
   margin-right: auto;
   width: 50%;
 }
+
+/*footer*/
+
+#footer
+{
+    border-top: 1px solid #C5B358;
+    background-color:#000000;
+    padding-bottom: 4vw;
+    padding-top: 2vw;
+}
+
+#designer
+{
+    color:#C5B358;
+}
+#designer:hover
+{
+    color:#d5c66a;
+    text-decoration:none;
+}
