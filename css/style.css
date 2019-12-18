@@ -226,68 +226,6 @@ header {
     height: 65px;
 }
 
-.navleft ul { 
-    text-align: center;
-    display: inline-block;
-    padding-left: 0;
-    margin-left: 18%;
-    list-style: none;
-    padding: 20px;
-    margin-bottom: 0;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-  }
-  .navleft li { 
-    display: table-cell; 
-    position: relative; 
-    padding: 5px 0;
-  }
-  .navleft li a {
-    color: #fff !important;
-    text-transform: uppercase;
-    text-decoration: none !important;
-    letter-spacing: 0.3em;  
-    display: inline-block;
-    padding: 5px 20px;
-    position: relative;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: 'playfair display', serif !important;
-  }
-
-  .navleft li a:hover
-  {
-      text-decoration: none !important;
-      color:#C5B358 !important;
-  }
-
-  .navleft li a:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #C5B358;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-  }
-  .navleft li a:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
-
-  .navleft li a.active {
-    color: #C5B358 !important;
-    text-decoration: none !important;
-}
-.navleft li a.visited {
-    color: #fff !important;
-    text-decoration: none !important;
-}
-
-  
   .bg-nav {
     background: rgba(0, 0, 0, 0.8);
     border-bottom: 1px solid #333;
@@ -297,7 +235,7 @@ header {
     padding: 10px;
 }
 
-.navright ul { 
+.social ul { 
     text-align: center;
     display: inline-block;
     padding-left: 0;
@@ -306,14 +244,13 @@ header {
     -webkit-transition: all .5s;
     transition: all .5s;
   }
-  .navright li { 
+  .social li { 
     display: table-cell; 
     position: relative; 
     padding: 5px 0;
   }
 
-  .navleft {float:left; width: 85%;} 
-  .navright {width: 15%;} 
+  .social {width: 15%;} 
   .tabs-inner .widget ul {margin-right: 0px; margin-left: 0px;}
 /* home section
 ==================================================*/
@@ -325,17 +262,6 @@ header {
     -moz-background-size: cover;  /* Firefox 3.6 */
     background-position: center;  /* Internet Explorer 7/8 */
 }
-
-.table-cell {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.disply-table {
-    display: table;
-    height: 100vh;
-}
-
 
 /* music section
 ==================================================*/
@@ -888,8 +814,9 @@ fieldset {
 }
 .navbar-collapse
 {
-    border:none!important;
+    border:none!important;   
 }
+
 .navbar-default li a[aria-expanded="true"]::after
 {
     width:0px !important;
@@ -897,8 +824,6 @@ fieldset {
 
 #mu-header {
 	display: inline;
-	float: left;
-	width: 100%;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -924,18 +849,23 @@ fieldset {
 
 #mu-header.mu-fixed-nav {
 	width: 100%;
-	position: fixed;
-	padding: 15px 0;
+    padding: 15px 0;
+    text-align: center;
 }
 /*--------------------*/
-/* MENU */
+/* navigation */
 /*--------------------*/
+.container-fluid
+{
+    width: 100%!important; 
+    text-align: center!important;
+}
 
 .mu-navbar {
 	background-color: transparent;
 	border: none;
 	border-radius: 0;
-	margin-bottom: 0;
+    margin-bottom: 0;
 
 }
 
