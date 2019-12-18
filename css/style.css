@@ -37,7 +37,7 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif !important;
     font-size: 1.2em;
     color: #f3f3f3 !Important;
 }
@@ -822,6 +822,13 @@ fieldset {
         width: 90%;
         left: 2em;
     }
+    .navbar-default .mu-menu li a:hover::after,
+.navbar-default .mu-menu li a:focus::after,
+.navbar-default .navbar-nav > .active > a:focus::after, 
+.navbar-default .navbar-nav > .active > a:hover::after {
+	transform: scale(0)!important;
+}
+
 }
 
 @media (max-width: 300px) {
@@ -857,6 +864,25 @@ fieldset {
   /*--------------------*/
 /* HEADER */
 /*--------------------*/
+
+.navbar-toggle {
+    border-color: black!important;
+    background-color: #C5B358;
+}
+.navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: #d5c66a !important;
+}
+.icon-bar {
+    background-color: black !important;
+}
+.navbar-collapse
+{
+    border:none!important;
+}
+.navbar-default li a[aria-expanded="true"]::after
+{
+    width:0px !important;
+}
 
 #mu-header {
 	display: inline;
