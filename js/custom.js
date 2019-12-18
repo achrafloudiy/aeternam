@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     // scroll menu
     var sections = $('.section'),
-        nav = $('.navbar-fixed-top,footer'),
+        nav = $('.mu-navbar,footer'),
         nav_height = nav.outerHeight();
 
     $(window).on('scroll', function () {

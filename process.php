@@ -1,15 +1,15 @@
 <?php
 
-    $to = "mr3essa@gmail.com";
+    $to = "aeternamband@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $headers = "From: $from";
-    $subject = "You have a message.";
+    $subject = $_REQUEST['subject'];
 
     $fields = array();
     $fields{"name"} = "name";
     $fields{"email"} = "email";
-    $fields{"phone"} = "phone";
+    $fields{"subject"} = "subject";
     $fields{"message"} = "message";
 
     

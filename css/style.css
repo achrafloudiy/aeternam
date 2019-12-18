@@ -358,7 +358,13 @@ header {
     left: 50px;
     z-index: 1
 }
-
+.listen-img
+{
+    height:auto;
+    width: 100%;
+    padding-right:1vw;
+    padding-bottom:1vw;
+}
 
 /* videos section
 ==================================================*/
@@ -822,11 +828,16 @@ fieldset {
         width: 90%;
         left: 2em;
     }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        background-color: rgba(0,0,0,0.8);
+        text-align: center;
+    
+    }
     .navbar-default .mu-menu li a:hover::after,
 .navbar-default .mu-menu li a:focus::after,
 .navbar-default .navbar-nav > .active > a:focus::after, 
 .navbar-default .navbar-nav > .active > a:hover::after {
-	transform: scale(0)!important;
+    transform: scale(0)!important;
 }
 
 }
@@ -953,7 +964,7 @@ fieldset {
 	bottom: -5px;
 	left: 0;
 	transform: scale(0);
-	transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .navbar-default .mu-menu li a:hover,
