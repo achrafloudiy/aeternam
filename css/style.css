@@ -666,6 +666,15 @@ header {
 	display: inline;
 }
 
+.endorsedby
+{
+    font-family: 'playfair display', serif;
+    text-transform: uppercase;
+    color:#ffffff;
+    text-align: center;
+    font-size:1.7rem !important;
+}
+
 #endorsed ul { 
     text-align: center;
     display: inline-block;
