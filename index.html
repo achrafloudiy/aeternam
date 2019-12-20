@@ -13,7 +13,7 @@
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
     <!-- main style -->
     <link href="css/style.css" rel="stylesheet">
     <!-- carousel style -->
@@ -64,7 +64,7 @@
                     </div>
  -->
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
                         <ul class="nav navbar-nav mu-menu">
                             <li><a href="#music">music</a></li>
                             <li><a href="#videos">videos</a></li>
@@ -90,26 +90,23 @@
         <div class="container">
             <div class="col-md-6" data-aos="fade-up" style='padding-bottom: 8vw'>
                 <img id='albumlogo' src="img/Arabic.png" />
-                <h1 class="outnow size-50" style='padding-bottom:5vw'>NEW ALBUM OUT NOW</h1>
+                <h1 class="outnow size-50" style='padding-bottom:1vw'>NEW ALBUM OUT NOW</h1>
                 <div style="text-align: center">
-                    <table style='margin: 0 auto'>
-                        <tr>
-                            <td>
-                                <img class="listen-img" src="img/listen/spotify.png" />
-                            </td>
-                            <td>
-                                <img class="listen-img" src="img/listen/amazon.png" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img class="listen-img" src="img/listen/deezer-web.png" />
-                            </td>
-                            <td class="listen-div">
-                                <img class="listen-img" src="img/listen/apple.png" />
-                            </td>
-                        </tr>
-                    </table>
+                    <div class="listen">
+                        <ul class="mu-listen">
+                            <li> <a href="https://open.spotify.com/artist/2rC2vtci4S1g3irfTDyi9s" target='_blank'><i
+                                        class="fab fa-spotify"></i></a> </li>
+                            <li> <a href="https://www.amazon.com/Deciples-Unseen-Aeternam/dp/B002YSVZUU/ref=sr_1_1?keywords=aeternam&qid=1576828478&s=music&sr=1-1" target='_blank'><i
+                                        class="fab fa-amazon"></i></a>
+                            </li>
+                            <li> <a href="https://music.apple.com/ca/album/disciples-of-the-unseen/350222349?l=fr" target='_blank'><i
+                                        class="fab fa-apple"></i></a>
+                            </li>
+                            <li> <a href="https://aeternam.bandcamp.com/merch" target='_blank'><i
+                                        class="fab fa-bandcamp"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6 about-img-div">
@@ -135,10 +132,9 @@
         <div class="container">
             <div class="col-md-12">
                 <h1 class="section-title size-50">Videos</h1>
-                <div class="h-50"></div>
             </div>
 
-            <div class="col-md-12 videowrap">
+            <div class="col-md-12 videowrap" data-aos="fade-right" data-aos-delay="0">
                 <iframe class="mySlides" src="https://www.youtube.com/embed/NyUS5FIZYuc" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -188,7 +184,7 @@
                 <div class="merch-div">
                     <div class="merch">
                         <!-- merch_filter -->
-                        <div class="categories-grid wow fadeInLeft">
+                        <div class="categories-grid">
                             <nav class="categories">
                                 <ul class="merch_filter">
                                     <li><a href="" class="active" data-filter=".Shirts">Shirts</a></li>
@@ -357,6 +353,29 @@
         </div>
     </div>
     <!-- ./merch -->
+        <!-- endorsed -->
+        <div class="section" id="endorsed">
+            <div class="container">
+                <div class="col-md-12" style='padding-bottom: 1vw'>
+                    <h1 class="outnow size-50" style='padding-bottom:1vw'>Aeternam is endorsed by</h1>
+                    <div style="text-align: center">
+                        <div>
+                            <ul>
+                                <li> <a href="https://www.caparisonguitars.com" target='_blank'><img class="img-endoresed"
+                                            src="img/endorsed/caparison.png"></img></a> </li>
+                                <li> <a href="https://www.seymourduncan.com" target='_blank'><img class="img-endoresed"
+                                            src="img/endorsed/SeymourDuncan.png"></img></a>
+                                </li>
+                                <li> <a href="http://intunegp.com" target='_blank'><img class="img-endoresed"
+                                            src="img/endorsed/InTune.jpg"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ./endorsed -->
 
     <!-- contact -->
     <div class="section" id="contact">
@@ -394,6 +413,7 @@
     </div>
     <!-- ./contact -->
 
+
     <footer class="" id="footer">
         <div class="container">
             <div class="row">
@@ -408,12 +428,12 @@
                         <div class="social">
                             <ul class="mu-social-media">
                                 <li> <a href="https://www.facebook.com/aeternammetal" target='_blank'><i
-                                            class="fa fa-facebook"></i></a>
+                                            class="fab fa-facebook-f"></i></a>
                                 </li>
                                 <li> <a href="https://www.instagram.com/aeternamband" target='_blank'><i
-                                            class="fa fa-instagram"></i></a> </li>
+                                            class="fab fa-instagram"></i></a> </li>
                                 <li> <a href="https://www.youtube.com/aeternametal" target='_blank'><i
-                                            class="fa fa-youtube"></i></a>
+                                            class="fab fa-youtube"></i></a>
                                 </li>
                             </ul>
                         </div>
