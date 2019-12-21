@@ -271,12 +271,12 @@ header {
 
 .mu-listen a {
 	display: inline-block;
-    font-size: 60px;
-    width: 85px;
-    height: 85px;
+    font-size: 4.5vw;
+    width: 100%;
+    height: 10%;
     line-height: 77px;
     text-align: center;
-    margin: 0px 5px;
+    margin: 0px 15%;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
     color: #fff;
@@ -298,9 +298,11 @@ header {
     transition: all .5s;
   }
   .listen li { 
-    display: table-cell; 
-    position: relative; 
-    padding: 5px 0;
+    display: table-cell;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 10%;
+    width: 25%;
   }
 
   .listen {text-align: center;} 
@@ -672,7 +674,7 @@ header {
     text-transform: uppercase;
     color:#ffffff;
     text-align: center;
-    font-size:1.7rem !important;
+    font-size:3vw !important;
 }
 
 #endorsed ul { 
@@ -1029,6 +1031,7 @@ fieldset {
     text-transform: uppercase;
     color:#ffffff;
     text-align: center;
+    font-size: 3.3vw;
 }
 /*social*/
 .fa-instagram
