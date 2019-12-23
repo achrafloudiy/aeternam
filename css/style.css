@@ -267,7 +267,7 @@ header {
     -moz-background-size: cover;  /* Firefox 3.6 */
     background-position: center;  /* Internet Explorer 7/8 */
     background-color:black!important;
-    border-bottom: solid 2px #C5B358;
+    border-bottom: solid 1px #1b1b1b;
     
 }
   /* entersite sub section
