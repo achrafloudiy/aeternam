@@ -267,6 +267,7 @@ header {
     -moz-background-size: cover;  /* Firefox 3.6 */
     background-position: center;  /* Internet Explorer 7/8 */
     background-color:black!important;
+    border-bottom: solid 2px #C5B358;
     
 }
   /* entersite sub section
@@ -310,7 +311,6 @@ a{
     font-size: 4.5vw;
     width: 100%;
     height: auto;
-    line-height: 77px;
     text-align: center;
     margin: 0px 15%;
     -webkit-transition: all 0.5s;
