@@ -252,6 +252,42 @@ header {
 
   .social {text-align: center;} 
   .tabs-inner .widget ul {margin-right: 0px; margin-left: 0px;}
+  /* entersite section
+==================================================*/
+
+.bg-entersite-sub
+{
+    margin:0;
+    display:table-cell;
+}
+#bg-entersite{
+    background: url(../img/Finale.jpg);
+    padding-top: 40%;  /* 450px/800px = 0.5625 */
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+    background-color:black!important;
+    
+}
+  /* entersite sub section
+==================================================*/
+
+#entersite-sub{
+    background-color:black!important;
+    padding-top: 2%;
+    padding-bottom:100%;
+    height:200px!important;
+}
+
+a{
+    text-decoration:none !important;
+}
+
+
+.sub h1:hover, .sub h1:focus, .sub h1:visited
+{
+    color:#d5c66a!important;
+}
 /* home section
 ==================================================*/
 
@@ -273,7 +309,7 @@ header {
 	display: inline-block;
     font-size: 4.5vw;
     width: 100%;
-    height: 10%;
+    height: auto;
     line-height: 77px;
     text-align: center;
     margin: 0px 15%;
@@ -300,9 +336,7 @@ header {
   .listen li { 
     display: table-cell;
     position: relative;
-    padding-left: 5%;
     padding-right: 10%;
-    width: 25%;
   }
 
   .listen {text-align: center;} 
@@ -882,6 +916,11 @@ fieldset {
     .disply-table {
         height: auto;
     }
+
+    #entersite,
+    .disply-table {
+        height: auto;
+    }
     
     .music-border {
         width: 265px;
@@ -1023,6 +1062,7 @@ fieldset {
     font-family: 'playfair display', serif;
     text-transform: uppercase;
     text-shadow: 2px 3px 4px #000000;
+    font-size:4vw;
 }
 
 .outnow
