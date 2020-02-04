@@ -38,7 +38,7 @@ font-family: 'Open Sans', sans-serif;
 
 h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif !important;
-    font-size: 1.2em;
+    font-size: 1.2em !important;
     color: #f3f3f3 !Important;
 }
 
@@ -496,7 +496,10 @@ a{
 
 /* merch section
 ==================================================*/
-
+#comingsoon
+{
+    padding-top: 1vw;
+}
 #merch {
     padding: 5vw 0;
     background-color:#191919;
