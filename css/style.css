@@ -1068,6 +1068,73 @@ fieldset {
     font-size:4vw;
 }
 
+
+/* subscribe section
+==================================================*/
+
+#subscribe-form input,
+#subscribe-form textarea {
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 0;
+}
+
+#subscribe-form label {
+    display: block;
+    margin-bottom: .2em;
+    font-size: 13px;
+    line-height: 13px;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    color: #000;
+}
+
+#subscribe-form label.error {
+    margin-top: 10px;
+    margin-bottom: 1em;
+    font-size: 12px;
+    line-height: 12px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #D33E43;
+    margin-left: 10px
+}
+
+#subscribe-form input[type="text"].error,
+#subscribe-form input[type="password"].error,
+#subscribe-form input[type="date"].error,
+#subscribe-form input[type="datetime"].error,
+#subscribe-form input[type="datetime-local"].error,
+#subscribe-form input[type="month"].error,
+#subscribe-form input[type="week"].error,
+#subscribe-form input[type="email"].error,
+#subscribe-form input[type="number"].error,
+#subscribe-form input[type="search"].error,
+#subscribe-form input[type="tel"].error,
+#subscribe-form input[type="time"].error,
+#subscribe-form input[type="url"].error,
+#subscribe-form textarea.error {
+    border-color: #D33E43
+}
+#subscribe
+{
+    border-top: 1px solid #C5B358;
+}
+#bg-subscribe{
+    background-image:url('../img/YouTube\ Header.jpg');
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
+}
+
+
+#subscribe-title
+{
+    color: #C5B358;
+    font-family: 'playfair display', serif;
+    text-shadow: 2px 3px 4px #000000;
+    font-size:2vw;
+}
 .outnow
 {
     font-family: 'playfair display', serif;
