@@ -743,10 +743,14 @@ a{
 }
 
 
-img-endorsed
+.img-endorsed
 {
     width:100%;
     height:auto;
+}
+img.img-endoresed.img-responsive
+{
+    padding-right:30px;
 }
 /* contact
 ==================================================*/
