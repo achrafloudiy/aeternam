@@ -123,7 +123,7 @@ body {
     width: 100%;
     -webkit-animation: rotation 1s linear infinite;
     animation: rotation 1s linear infinite;
-    border: 2px solid #C5B358;
+    border: 2px solid #990000;
     border-top: 2px solid transparent;
     border-radius: 100%
 }
@@ -287,7 +287,7 @@ a{
 
 .sub h1:hover, .sub h1:focus, .sub h1:visited
 {
-    color:#d5c66a!important;
+    color:#cc0000!important;
 }
 /* home section
 ==================================================*/
@@ -320,8 +320,8 @@ a{
 
 .mu-listen a:hover
 {
-    color: #C5B358;
-    border-color: #C5B358;
+    color: #990000;
+    border-color: #990000;
 }
 
 .listen ul { 
@@ -531,7 +531,7 @@ a{
 }
 
 .merch .categories-grid .categories ul li a.active {
-    background-color: #C5B358;
+    background-color: #990000;
     padding: 0px 20px;
     color: black;
     text-decoration: none;
@@ -592,13 +592,13 @@ a{
 }
 
 .item_info em:hover{
-    background-color: #d5c66a!important;
+    background-color: #990000!important;
 }
 .merch_item .merch_item_hover .item_info em {
 
     font-style: normal;
     display: inline-block;
-    background-color:#C5B358!important;
+    background-color:#990000!important;
     font-weight: bold !important;
     padding: 5px 20px;
     color: #000000;
@@ -757,7 +757,7 @@ img.img-endoresed.img-responsive
 
 #contact {
     padding: 5vw 0;
-    background: #191919;
+    background: #000000;
 }
 
 #contact-form input,
@@ -830,11 +830,11 @@ fieldset {
 }
 
 #success p {
-    color: #C5B358;
+    color: #990000;
     font-size: 15px;
     text-align: center;
     padding: 10px;
-    border: 2px solid #C5B358;
+    border: 2px solid #990000;
     margin-top: 10px;
 }
 
@@ -848,7 +848,7 @@ fieldset {
 }
 
 #submit {
-    background-color: #C5B358;
+    background-color: #990000;
     color: #000000;
     padding: 10px 40px;
     border-radius: 0;
@@ -881,8 +881,8 @@ fieldset {
 
 .mu-social-media a:hover
 {
-    color: #C5B358;
-    border-color: #C5B358;
+    color: #990000;
+    border-color: #990000;
 }
 
 /* Responsive media queries
@@ -954,10 +954,10 @@ fieldset {
 
 .navbar-toggle {
     border-color: black!important;
-    background-color: #C5B358;
+    background-color: #990000;
 }
 .navbar-toggle:hover, .navbar-toggle:focus {
-    background-color: #d5c66a !important;
+    background-color: #cc0000 !important;
 }
 .icon-bar {
     background-color: black !important;
@@ -1033,10 +1033,11 @@ fieldset {
     position: relative;
     font-family: 'playfair display', sans-serif !important;
     text-transform: uppercase;
+    text-shadow: 2px 1px 1px #000000;
 }
 
 .navbar-default .mu-menu li a::after {
-	background-color: #C5B358;
+	background-color: #990000;
 	content: '';
 	height: 2px;
 	width: 100%;
@@ -1053,7 +1054,7 @@ fieldset {
 .navbar-default .navbar-nav > .active > a:focus, 
 .navbar-default .navbar-nav > .active > a:hover {
 	background-color: transparent;
-	color: #C5B358;
+	color: #990000;
 }
 
 .navbar-default .mu-menu li a:hover::after,
@@ -1065,7 +1066,7 @@ fieldset {
 
 .section-title
 {
-    color: #C5B358;
+    color: #990000;
     font-family: 'playfair display', serif;
     text-transform: uppercase;
     text-shadow: 2px 3px 4px #000000;
@@ -1122,7 +1123,7 @@ fieldset {
 }
 #subscribe
 {
-    border-top: 1px solid #C5B358;
+    border-top: 1px solid #990000;
 }
 #bg-subscribe{
     background-image:url('../img/YouTube\ Header.jpg');
@@ -1134,7 +1135,7 @@ fieldset {
 
 #subscribe-title
 {
-    color: #C5B358;
+    color: #990000;
     font-family: 'playfair display', serif;
     text-shadow: 2px 3px 4px #000000;
     font-size:2vw;
@@ -1200,7 +1201,7 @@ a.bit-button.bit-track-button.bit-offers
 {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    background-color:#d5c66a;
+    background-color:#cc0000;
     text-decoration: none;
 }
 
@@ -1223,7 +1224,7 @@ a.bit-button.bit-track-button.bit-offers
     text-transform: uppercase;
     font-family:'Playfair Display', serif ;
     color:#000000;
-    background-color:#C5B358;
+    background-color:#990000;
     width:100%;
     border:none;   
 }
@@ -1249,18 +1250,18 @@ a.bit-button.bit-track-button.bit-offers
 
 #footer
 {
-    border-top: 1px solid #C5B358;
-    background-color:#000000;
+    border-top: 1px solid #990000;
+    background-color:#191919;
     padding-bottom: 4vw;
     padding-top: 2vw;
 }
 
 #designer
 {
-    color:#C5B358;
+    color:#990000;
 }
 #designer:hover
 {
-    color:#d5c66a;
+    color:#cc0000;
     text-decoration:none;
 }
