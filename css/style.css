@@ -1033,7 +1033,7 @@ fieldset {
     position: relative;
     font-family: 'playfair display', sans-serif !important;
     text-transform: uppercase;
-    text-shadow: 2px 1px 1px #000000;
+    text-shadow: 2px 1px 2.5px #000000;
 }
 
 .navbar-default .mu-menu li a::after {
@@ -1066,7 +1066,7 @@ fieldset {
 
 .section-title
 {
-    color: #990000;
+    color: #ffffff;
     font-family: 'playfair display', serif;
     text-transform: uppercase;
     text-shadow: 2px 3px 4px #000000;
