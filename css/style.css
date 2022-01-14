@@ -13,7 +13,7 @@
     - Preloader -
 	- Header -
     - home section -
-    - music section -
+    - home section -
     - videos section -
     - merch section -
     - Contact section -
@@ -123,7 +123,7 @@ body {
     width: 100%;
     -webkit-animation: rotation 1s linear infinite;
     animation: rotation 1s linear infinite;
-    border: 2px solid #990000;
+    border: 2px solid #cead99;
     border-top: 2px solid transparent;
     border-radius: 100%
 }
@@ -261,7 +261,7 @@ header {
     display:table-cell;
 }
 #bg-entersite{
-    background: url(../img/Finale.jpg);
+    
     padding-top: 40%;  /* 450px/800px = 0.5625 */
     background-size: cover;
     -moz-background-size: cover;  /* Firefox 3.6 */
@@ -287,20 +287,10 @@ a{
 
 .sub h1:hover, .sub h1:focus, .sub h1:visited
 {
-    color:#cc0000!important;
+    color:#e1cdc1!important;
 }
+
 /* home section
-==================================================*/
-
-#bg-home{
-    background: url(../img/home-bg-2.jpg);
-    padding-top: 56.25%;  /* 450px/800px = 0.5625 */
-    background-size: cover;
-    -moz-background-size: cover;  /* Firefox 3.6 */
-    background-position: center;  /* Internet Explorer 7/8 */
-}
-
-/* music section
 ==================================================*/
 .mu-listen{
 	display: inline;
@@ -320,8 +310,8 @@ a{
 
 .mu-listen a:hover
 {
-    color: #990000;
-    border-color: #990000;
+    color: #cead99;
+    border-color: #cead99;
 }
 
 .listen ul { 
@@ -343,16 +333,19 @@ a{
 
   .tabs-inner .widget ul {margin-right: 0px; margin-left: 0px;}
 
-#music {
-    padding: 5vw 0;
-    background-color: #000;
+#home {
+    background: url(../img/HOTRS-wide\ -\ blur.jpg);
+    padding-top: 10%;  /* 450px/800px = 0.5625 */
+    background-size: cover;
+    -moz-background-size: cover;  /* Firefox 3.6 */
+    background-position: center;  /* Internet Explorer 7/8 */
 }
 
-.music-img-div img {
+.home-img-div img {
     margin: 0 auto;
 }
 
-.music-border {
+.home-border {
     position: absolute;
     border: 10px solid #425BB5;
     width: 400px;
@@ -374,7 +367,7 @@ a{
 
 #videos {
     padding: 5vw 0;
-    background: #191919;
+    background: #000;
 }
 
 .videos-row {
@@ -531,7 +524,7 @@ a{
 }
 
 .merch .categories-grid .categories ul li a.active {
-    background-color: #990000;
+    background-color: #cead99;
     padding: 0px 20px;
     color: black;
     text-decoration: none;
@@ -592,13 +585,13 @@ a{
 }
 
 .item_info em:hover{
-    background-color: #990000!important;
+    background-color: #cead99!important;
 }
 .merch_item .merch_item_hover .item_info em {
 
     font-style: normal;
     display: inline-block;
-    background-color:#990000!important;
+    background-color:#cead99!important;
     font-weight: bold !important;
     padding: 5px 20px;
     color: #000000;
@@ -735,29 +728,23 @@ a{
 
 #endorsed {
     padding: 5vw 0;
-    background-color: #000000;
+    background-color: #000;
 }
 
 .endorsed-img-div img {
     margin: 0 auto;
 }
-
-
-.img-endorsed
-{
-    width:100%;
-    height:auto;
+img.img-endoresed.img-responsive {
+    padding-right: 30px;
+    max-width: 10vw;
 }
-img.img-endoresed.img-responsive
-{
-    padding-right:30px;
-}
+
 /* contact
 ==================================================*/
 
 #contact {
     padding: 5vw 0;
-    background: #000000;
+    background: #191919;
 }
 
 #contact-form input,
@@ -830,11 +817,11 @@ fieldset {
 }
 
 #success p {
-    color: #990000;
+    color: #cead99;
     font-size: 15px;
     text-align: center;
     padding: 10px;
-    border: 2px solid #990000;
+    border: 2px solid #cead99;
     margin-top: 10px;
 }
 
@@ -848,7 +835,7 @@ fieldset {
 }
 
 #submit {
-    background-color: #990000;
+    background-color: #cead99;
     color: #000000;
     padding: 10px 40px;
     border-radius: 0;
@@ -881,8 +868,8 @@ fieldset {
 
 .mu-social-media a:hover
 {
-    color: #990000;
-    border-color: #990000;
+    color: #cead99;
+    border-color: #cead99;
 }
 
 /* Responsive media queries
@@ -929,7 +916,7 @@ fieldset {
         height: auto;
     }
     
-    .music-border {
+    .home-border {
         width: 265px;
     }
     .merch .categories-grid .categories ul li {
@@ -954,10 +941,10 @@ fieldset {
 
 .navbar-toggle {
     border-color: black!important;
-    background-color: #990000;
+    background-color: #cead99;
 }
 .navbar-toggle:hover, .navbar-toggle:focus {
-    background-color: #cc0000 !important;
+    background-color: #e1cdc1 !important;
 }
 .icon-bar {
     background-color: black !important;
@@ -1037,7 +1024,7 @@ fieldset {
 }
 
 .navbar-default .mu-menu li a::after {
-	background-color: #990000;
+	background-color: #cead99;
 	content: '';
 	height: 2px;
 	width: 100%;
@@ -1054,7 +1041,7 @@ fieldset {
 .navbar-default .navbar-nav > .active > a:focus, 
 .navbar-default .navbar-nav > .active > a:hover {
 	background-color: transparent;
-	color: #990000;
+	color: #cead99;
 }
 
 .navbar-default .mu-menu li a:hover::after,
@@ -1123,7 +1110,7 @@ fieldset {
 }
 #subscribe
 {
-    border-top: 1px solid #990000;
+    border-top: 1px solid #cead99;
 }
 #bg-subscribe{
     background-image:url('../img/YouTube\ Header.jpg');
@@ -1135,7 +1122,7 @@ fieldset {
 
 #subscribe-title
 {
-    color: #990000;
+    color: #cead99;
     font-family: 'playfair display', serif;
     text-shadow: 2px 3px 4px #000000;
     font-size:2vw;
@@ -1201,7 +1188,7 @@ a.bit-button.bit-track-button.bit-offers
 {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    background-color:#cc0000;
+    background-color:#e1cdc1;
     text-decoration: none;
 }
 
@@ -1224,7 +1211,7 @@ a.bit-button.bit-track-button.bit-offers
     text-transform: uppercase;
     font-family:'Playfair Display', serif ;
     color:#000000;
-    background-color:#990000;
+    background-color:#cead99;
     width:100%;
     border:none;   
 }
@@ -1233,7 +1220,7 @@ a.bit-button.bit-track-button.bit-offers
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80%;
 }
 
 #indiegogoVideo
@@ -1250,7 +1237,7 @@ a.bit-button.bit-track-button.bit-offers
 
 #footer
 {
-    border-top: 1px solid #990000;
+    border-top: 1px solid #cead99;
     background-color:#191919;
     padding-bottom: 4vw;
     padding-top: 2vw;
@@ -1258,10 +1245,21 @@ a.bit-button.bit-track-button.bit-offers
 
 #designer
 {
-    color:#990000;
+    color:#cead99;
 }
 #designer:hover
 {
-    color:#cc0000;
+    color:#e1cdc1;
     text-decoration:none;
 }
+
+
+.main {
+    height:100vh;
+    text-align:center; 
+    display:table;
+    width:100%;
+    background-color: black;
+}
+
+.main h1 {display:table-cell; vertical-align:middle}
